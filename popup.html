@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send to API</title>
+</head>
+<body>
+    <h1>Send to API</h1>
+    <form>
+        <label for="apiKey">API Key:</label>
+        <input type="text" id="apiKey" name="apiKey" required>
+        <br>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <br>
+        <label for="notebook">Notebook:</label>
+        <input type="text" id="notebook" name="notebook" required>
+    </form>
+    <br>
+    <button id="saveBtn">Save</button>
+    <script src="popup.js"></script>
+</body>
+</html>
+
+<style>
+    input[type=text][name=apiKey] {
+        letter-spacing: 5px;
+    }
+</style>
